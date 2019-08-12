@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'comfortaaregular';
+    src: url('../css/fonts/comfortaa-regular-webfont.woff2') format('woff2'),
+         url('../css/fonts/comfortaa-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'comfortaabold';
+    src: url('../css/fonts/comfortaa-bold-webfont.woff2') format('woff2'),
+         url('../css/fonts/comfortaa-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#mainHeaderName {
+	text-align: center;
+	font-size: 200%;
+	font-family: comfortaabold;
+	color: white;
+}
+
+#mainHeader {
+	background-color: rgb(102,204,153);
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 0;
+}
+
+#menuList {
+	padding: 0;
+	list-style: none;
+	margin-bottom: 15px;
+  text-align: center;
+}
+
+#headerMenuItem {
+	display: inline;
+	padding-right: 25px;
+}
+
+.headerMenuItemClass {
+	font-family: comfortaaregular;
+	text-decoration: none;
+	color: white;
+}
+
+.headerMenuItemClass:hover {
+	color: #0093b7;
+}
+
+.headDiv {
+  width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.indexMain {
+  margin-top: 140px;
+  text-align: center;
+}

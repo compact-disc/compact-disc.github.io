@@ -32,35 +32,70 @@
   z-index: 0;
 }
 
-#menuList {
-	padding: 0;
-	list-style: none;
-	margin-bottom: 15px;
-  text-align: center;
-}
-
-#headerMenuItem {
-	display: inline;
-	padding-right: 25px;
-}
-
-.headerMenuItemClass {
-	font-family: comfortaaregular;
-	text-decoration: none;
-	color: white;
-}
-
-.headerMenuItemClass:hover {
-	color: #0093b7;
-}
-
 .headDiv {
   width: 80%;
 	margin: auto;
 	overflow: hidden;
 }
 
-.indexMain {
-  margin-top: 140px;
+.menuList {
+	list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.headerMenuItem, .headerMenuItemProject {
+  position: relative;
+	padding-right: 25px;
+  display: inline-block;
+}
+
+.headerMenuItemClass, .headerMenuItemClassProject {
+	font-family: comfortaaregular;
+	text-decoration: none;
+	color: white;
+}
+
+.headerMenuItemClass:hover, .headerMenuItemClassProject:hover {
+	color: black;
+}
+
+.projectDropDown {
+  display: none;
+  position: absolute;
+  list-style-type: none;
+  padding-top: 18px;
+}
+
+.headerMenuItemProject:hover + .projectDropDown {
+  display: block;
+}
+
+.projectDropDown:hover {
+  display: block;
+}
+
+.projectDropDown li {
+  padding: 8px;
+  background-color: rgb(102,204,204);
+}
+
+.projectDropDown li a {
+  font-family: comfortaaregular;
+  text-decoration: none;
+  color: white;
+}
+
+.projectDropDown li a:hover {
+  color: black;
+}
+
+#indexBody {
+  background-color: #bbbbbb;
+}
+
+#indexMain {
+  margin-top: 160px;
   text-align: center;
+  font-family: comfortaaregular;
 }

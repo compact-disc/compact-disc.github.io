@@ -6,19 +6,23 @@
 <header id=mainHeader>
 	<div class="headDiv">
 		<h2 id=mainHeaderName>Christopher M. DeRoche</h2>
-			<ul id="menuList">
-				<li id="headerMenuItem"><a class="headerMenuItemClass" href="index.html">Home</a></li>
-				<li id="headerMenuItem"><a class="headerMenuItemClass" href="resume.html">Resume</a></li>
-				<li id="headerMenuItem"><a class="headerMenuItemClass" href="homelab.html">Homelab</a></li>
-				<li id="headerMenuItem"><a class="headerMenuItemClass" href="javascript:void(0)">Additional Projects</a></li>
-				<li id="headerMenuItem"><a class="headerMenuItemClass" href="https://github.com/compact-disc">GitHub</a></li>
-				<li id="headerMenuItem"><a class="headerMenuItemClass" href="contact.html">Contact</a></li>
+			<ul class="menuList">
+				<li class="headerMenuItem"><a class="headerMenuItemClass" href="index.html">Home</a></li>
+				<li class="headerMenuItem"><a class="headerMenuItemClass" href="resume.html">Resume</a></li>
+				<li class="headerMenuItem"><a class="headerMenuItemClass" href="homelab.html">Homelab</a></li>
+				<li class="headerMenuItemProject"><a class="headerMenuItemClassProject" href="javascript:void(0)">Additional Projects &#9662;</a></li>
+					<ul class="projectDropDown">
+						<li><a href="https://github.com/compact-disc/deroche-bot-twitter" target="_blank">Twitter Bot</a></li>
+						<li><a href="https://github.com/compact-disc/netflix-binge-bot" target="_blank">Netflix Bot</a></li>
+					</ul>
+				<li class="headerMenuItem"><a class="headerMenuItemClass" href="https://github.com/compact-disc" target="_blank">GitHub</a></li>
+				<li class="headerMenuItem"><a class="headerMenuItemClass" href="contact.html">Contact</a></li>
 			</ul>
 		</div>
 </header>
 </head>
-<body>
-	<div class="indexMain">
+<body id="indexBody">
+	<div id="indexMain">
 		hello
 	</div>
 </body>

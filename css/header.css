@@ -89,13 +89,3 @@
 .projectDropDown li a:hover {
   color: black;
 }
-
-#indexBody {
-  background-color: #bbbbbb;
-}
-
-#indexMain {
-  margin-top: 160px;
-  text-align: center;
-  font-family: comfortaaregular;
-}

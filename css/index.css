@@ -25,3 +25,20 @@
   text-align: center;
   font-family: comfortaaregular;
 }
+
+.column{
+  float: left;
+  width: 40%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#chris {
+  border-radius: 25%;
+  width: 45%;
+  position: relative;
+}

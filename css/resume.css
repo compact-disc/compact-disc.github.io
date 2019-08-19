@@ -16,34 +16,12 @@
 
 }
 
-#indexBody {
-  background-color: #bbbbbb;
+body {
+	background-color: #bbbbbb;
 }
 
-#indexMain {
-  margin-top: 160px;
-  text-align: center;
-  font-family: comfortaaregular;
-}
-
-.bio-column{
-  float: left;
-  width: 40%;
-}
-
-.bio-row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-#chris {
-  border-radius: 25%;
-  width: 60%;
-  position: relative;
-}
-
-#bio {
-  font-size: 20px;
-  line-height: 35px;
+#resumePDF {
+	padding-top: 109px;
+	width: 100%;
+	border-color: none;
 }

@@ -25,3 +25,11 @@ body {
 	width: 100%;
 	border-color: none;
 }
+
+@-moz-document url-prefix() {
+    #resumePDF {
+      padding-top: 120px;
+      width: 100%;
+      border-color: none;
+    }
+}

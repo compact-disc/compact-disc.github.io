@@ -7,3 +7,27 @@
   text-align: center;
   font-family: comfortaaregular;
 }
+
+.lab-column{
+  float: left;
+  width: 40%;
+  margin-top: 100px;
+}
+
+.lab-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#homelab1 {
+  width: 60%;
+  position: relative;
+  transform: rotate(270deg);
+}
+
+#homelab2 {
+  width: 60%;
+  position: relative;
+  transform: rotate(90deg);
+}

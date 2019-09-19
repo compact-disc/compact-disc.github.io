@@ -11,7 +11,6 @@
 .lab-column{
   float: left;
   width: 40%;
-  margin-top: 100px;
 }
 
 .lab-row:after {
@@ -23,11 +22,17 @@
 #homelab1 {
   width: 60%;
   position: relative;
-  transform: rotate(270deg);
 }
 
 #homelab2 {
   width: 60%;
   position: relative;
-  transform: rotate(90deg);
+}
+
+.lab-column li{
+  margin-top: 30px;
+}
+
+.lab-column li a{
+  margin-top: 5px;
 }

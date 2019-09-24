@@ -22,11 +22,13 @@
 #homelab1 {
   width: 60%;
   position: relative;
+  z-index: -1;
 }
 
 #homelab2 {
   width: 60%;
   position: relative;
+  z-index: -1;
 }
 
 .lab-column li{

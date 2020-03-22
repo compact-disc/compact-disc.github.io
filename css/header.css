@@ -1,30 +1,47 @@
+/* Current Fonts */
 @font-face {
-    font-family: 'comfortaaregular';
-    src: url('../css/fonts/comfortaa-regular-webfont.woff2') format('woff2'),
-         url('../css/fonts/comfortaa-regular-webfont.woff') format('woff');
+    font-family: 'bitstream_vera_sans_monobold';
+    src: url('../css/fonts/veramobd-webfont.woff2') format('woff2'),
+         url('../css/fonts/veramobd-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
-
 @font-face {
-    font-family: 'comfortaabold';
-    src: url('../css/fonts/comfortaa-bold-webfont.woff2') format('woff2'),
-         url('../css/fonts/comfortaa-bold-webfont.woff') format('woff');
+    font-family: 'bitstream_vera_sans_monoBdOb';
+    src: url('../css/fonts/veramobi-webfont.woff2') format('woff2'),
+         url('../css/fonts/veramobi-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
+@font-face {
+    font-family: 'bitstream_vera_sans_monoOb';
+    src: url('../css/fonts/veramoit-webfont.woff2') format('woff2'),
+         url('../css/fonts/veramoit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'bitstream_vera_sans_monoroman';
+    src: url('../css/fonts/veramono-webfont.woff2') format('woff2'),
+         url('../css/fonts/veramono-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* End Current Fonts */
 
 #mainHeaderName {
 	text-align: center;
 	font-size: 200%;
-	font-family: comfortaabold;
+	font-family: bitstream_vera_sans_monobold;
 	color: white;
 }
 
 #mainHeader {
-	background-color: rgb(102,204,153);
+	background-color: #23374d;
   position: absolute;
   left: 0;
   top: 0;
@@ -51,41 +68,11 @@
 }
 
 .headerMenuItemClass, .headerMenuItemClassProject {
-	font-family: comfortaaregular;
+	font-family: bitstream_vera_sans_monoroman;
 	text-decoration: none;
 	color: white;
 }
 
 .headerMenuItemClass:hover, .headerMenuItemClassProject:hover {
 	color: black;
-}
-
-.projectDropDown {
-  display: none;
-  position: absolute;
-  list-style-type: none;
-  padding-top: 18px;
-}
-
-.headerMenuItemProject:hover + .projectDropDown {
-  display: block;
-}
-
-.projectDropDown:hover {
-  display: block;
-}
-
-.projectDropDown li {
-  padding: 8px;
-  background-color: rgb(102,204,204);
-}
-
-.projectDropDown li a {
-  font-family: comfortaaregular;
-  text-decoration: none;
-  color: white;
-}
-
-.projectDropDown li a:hover {
-  color: black;
 }
